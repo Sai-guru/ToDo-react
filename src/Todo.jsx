@@ -20,7 +20,7 @@ function Todo() {
 
     return (
         <>
-            <form onSubmit={hsubmit}>
+            <form className='myForm' onSubmit={hsubmit}>
                 <input
                     type="text"
                     value={task}
